@@ -1,2 +1,2 @@
 # sayho-algorithm
-algorithm logs
+알고리즘 이론 및 기록
