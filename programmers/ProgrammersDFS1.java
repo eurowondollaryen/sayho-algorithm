@@ -4,11 +4,11 @@ import java.util.Queue;
 
 public class ProgrammersDFS1 {
 	/*
-	 * Å¸°Ù ³Ñ¹ö
-	 * ¹è¿­ numbers ³»ÀÇ ¼ıÀÚµéÀ» ´õÇÏ°Å³ª »©¼­, sum°ú °°ÀÌ ¸¸µé ¼ö ÀÖ´Â ¹æ¹ıÀÇ ¼ö¸¦ ¹İÈ¯
-	 * dfs·Î ±¸Çö ½Ã, Àç±Í »ç¿ë
-	 * bfs·Î ±¸Çö ½Ã, Queue<int[]> »ç¿ëÇÏ´Â °ÍÀÌ ArrayListº¸´Ù ºü¸§.. ArrayList »ç¿ë ½Ã Å¸ÀÓ¾Æ¿ô ³ª¿ÔÀ½
-	 * Java Queue / ArrayList ºñ±³
+	 * íƒ€ê²Ÿ ë„˜ë²„
+	 * ë°°ì—´ numbers ë‚´ì˜ ìˆ«ìë“¤ì„ ë”í•˜ê±°ë‚˜ ë¹¼ì„œ, sumê³¼ ê°™ì´ ë§Œë“¤ ìˆ˜ ìˆëŠ” ë°©ë²•ì˜ ìˆ˜ë¥¼ ë°˜í™˜
+	 * dfsë¡œ êµ¬í˜„ ì‹œ, ì¬ê·€ ì‚¬ìš©
+	 * bfsë¡œ êµ¬í˜„ ì‹œ, Queue<int[]> ì‚¬ìš©í•˜ëŠ” ê²ƒì´ ArrayListë³´ë‹¤ ë¹ ë¦„.. ArrayList ì‚¬ìš© ì‹œ íƒ€ì„ì•„ì›ƒ ë‚˜ì™”ìŒ
+	 * Java Queue / ArrayList ë¹„êµ
 	 * */
 	private static int cnt;
 	public static void print(ArrayList<int[]> a) {
@@ -61,7 +61,7 @@ public class ProgrammersDFS1 {
 	}
 	
 	/*
-	 * ´Ù¸¥ »ç¶÷ÀÌ ÀÛ¼ºÇÑ ±ò²ûÇÑ ÄÚµå
+	 * ë‹¤ë¥¸ ì‚¬ëŒì´ ì‘ì„±í•œ ê¹”ë”í•œ ì½”ë“œ
 	 * class Solution {
     public int solution(int[] numbers, int target) {
         int answer = 0;
